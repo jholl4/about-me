@@ -1,0 +1,45 @@
+.gallery {
+    display: grid;
+    position: relative;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 500px;
+}
+
+.imgcontainer {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.imgcontainer:hover .caption {
+opacity: 1;
+}
+
+.imgcontainer:hover img {
+opacity: 0.3;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
