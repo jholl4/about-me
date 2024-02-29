@@ -38,10 +38,6 @@ nav {
     border-radius: 50%;
 }
 
-.navbar-menu li {
-    /* margin: 10px; */
-}
-
 .navbar-menu a {
     display: block;
     padding: 10px;
