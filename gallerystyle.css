@@ -14,6 +14,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin: 10px;
 }
 
 .caption {
@@ -42,4 +43,9 @@ img {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
 }

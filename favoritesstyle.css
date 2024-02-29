@@ -1,3 +1,7 @@
+:root {
+    --favbgcolor: #144552;
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -11,7 +15,7 @@
 }
 
 .favorite {
-    background-color: #444;
+    background-color: var(--favbgcolor);
     padding: 10px;
     border-radius: 10px;
 }
@@ -36,6 +40,5 @@ h6 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
